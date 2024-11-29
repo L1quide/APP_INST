@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import UserBage from '../UserBage';
+import { assets } from '../../assets/assets';
 
 const Navbar = (props) => {
   return (
@@ -8,7 +9,7 @@ const Navbar = (props) => {
       <div className={style['navbar-container']}>
         <div className='logo'>
           <a href='#' className={style['logo-text']}>
-            <img src='/logo.svg' alt='logo' className={style['logo-img']} />
+            <img src={assets.logo} alt='logo' className={style['logo-img']} />
             <h1>INSTAGRAM</h1>
           </a>
         </div>
