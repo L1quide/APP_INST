@@ -4,6 +4,10 @@
   max-width: 600px;
   border: 1px solid #dbdbdb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  &:first-child {
+    margin-top: 0;
+  }
 
   .card-header {
     display: flex;

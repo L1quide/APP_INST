@@ -5,6 +5,7 @@ import { GoHeart } from 'react-icons/go';
 import { MdOutlineComment } from 'react-icons/md';
 import UserBage from '../UserBage';
 import Comment from '../Comment';
+import { nanoid } from 'nanoid';
 /* import { comments } from '../../assets/assets.js'; */
 
 const CardDetails = (props) => {
@@ -21,20 +22,34 @@ const CardDetails = (props) => {
             onClick={() => setIsComment(true)}>{`Показать еще ${
             props.comments.length - commnetsForRenser.length
           } комментарии`}</span>
-          {commnetsForRenser.map((item, index) => (
-            <Comment {...item} key={index} />
+          {commnetsForRenser.map((item) => (
+            <Comment
+              nikname={item.nickname}
+              date={item.date}
+              comment={item.text}
+              avatar={item.avatar}
+              key={nanoid()}
+            />
           ))}
         </>
       );
     }
     return (
       <>
-        {props.comments.map((item, index) => (
-          <Comment {...item} key={index} />
+        {props.comments.map((item) => (
+          <Comment
+            nikname={item.nickname}
+            date={item.date}
+            comment={item.text}
+            avatar={item.avatar}
+            key={nanoid()}
+          />
         ))}
-        <span className={style['more-button']} onClick={() => setIsComment(false)}>
-          Скрыть комментарии
-        </span>
+        {isComment && (
+          <span className={style['more-button']} onClick={() => setIsComment(false)}>
+            Скрыть комментарии
+          </span>
+        )}
       </>
     );
   };

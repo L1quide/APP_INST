@@ -2,126 +2,220 @@
   "posts": [
     {
       "id": 1,
-      "imgUrl": "https://mobimg.b-cdn.net/v3/fetch/fc/fc97db329bd4482025eaa1e3961dc80e.jpeg?w=1470&r=0.5625",
+      "imgUrl": "../src/assets/photo/girl-1.jpg",
       "likes": [2, 3, 4, 5, 1],
       "comments": [
         {
+          "nickname": "IUvan111",
+          "text": "Фанфик настолько самостоятельный, что я представляю себе персонажей, которые выглядят иначе, чем в экранизации по оригиналу",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-01-01"
+        },
+        {
           "nickname": "IUvan222",
-          "text": "awesome!"
+          "text": "как думаете, макгонаголл думала что ничего не получится из-за того что все волшебники не особо обращают внимания на мир маглов? как бы выглядел мир если бы волшебники реально существовали и у них мышление не как в книге а реальное самоосознание?",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-08-01"
+        },
+        {
+          "nickname": "IUvan333",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-04-01"
+        },
+        {
+          "nickname": "IUvan444",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-02-01"
         }
       ],
       "author": {
         "id": 5,
-        "nickname": "Pli34",
-        "avatarUrl": "https://ru-static.z-dn.net/files/d22/1ea210af0e7432068e63ed30f284c35a.jpg"
+        "nickname": "Pli1",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 2,
-      "imgUrl": "https://img.desktopwallpapers.ru/rocks/pics/wide/1920x1200/27640f370156a0e0ae3ee9608fc8480a.jpg",
+      "imgUrl": "../src/assets/photo/girl-2.jpg",
       "likes": [2, 3, 1],
       "comments": [
         {
-          "nickname": "IUvan222",
-          "text": "awesome!"
+          "nickname": "IUvan555",
+          "text": "Фанфик настолько самостоятельный, что я представляю себе персонажей, которые выглядят иначе, чем в экранизации по оригиналу",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-01-01"
         },
         {
-          "nickname": "vosdux",
-          "text": "asdassss\n"
+          "nickname": "IUvan666",
+          "text": "как думаете, макгонаголл думала что ничего не получится из-за того что все волшебники не особо обращают внимания на мир маглов? как бы выглядел мир если бы волшебники реально существовали и у них мышление не как в книге а реальное самоосознание?",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-08-01"
         },
         {
-          "nickname": "vosdux",
-          "text": "asd\n"
+          "nickname": "IUvan777",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-04-01"
         },
         {
-          "nickname": "vosdux",
-          "text": "asd\n"
+          "nickname": "IUvan888",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-02-01"
         }
       ],
       "author": {
         "id": 5,
-        "nickname": "Pli34",
-        "avatarUrl": "https://ru-static.z-dn.net/files/d22/1ea210af0e7432068e63ed30f284c35a.jpg"
+        "nickname": "Pli2",
+        "imgUrl": "../src/assets/photo/girl-3.jpg"
       }
     },
     {
       "id": 3,
-      "imgUrl": "https://img.desktopwallpapers.ru/auto/pics/wide/1920x1200/f8e101812b260e55d1d9b7aa64af8171.jpg",
+      "imgUrl": "../src/assets/photo/girl-3.jpg",
       "likes": [1],
       "comments": [
         {
-          "nickname": "IUvan222",
-          "text": "awesome!"
+          "nickname": "IUvan999",
+          "text": "Фанфик настолько самостоятельный, что я представляю себе персонажей, которые выглядят иначе, чем в экранизации по оригиналу",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-01-01"
         },
         {
-          "nickname": "vosdux",
-          "text": "way\n"
+          "nickname": "IUvan222",
+          "text": "как думаете, макгонаголл думала что ничего не получится из-за того что все волшебники не особо обращают внимания на мир маглов? как бы выглядел мир если бы волшебники реально существовали и у них мышление не как в книге а реальное самоосознание?",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-08-01"
+        },
+        {
+          "nickname": "IUvan333",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-04-01"
+        },
+        {
+          "nickname": "IUvan444",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-02-01"
         }
       ],
       "author": {
         "id": 2,
-        "nickname": "IUvan222",
-        "avatarUrl": "https://aftershock.news/sites/default/files/u27392/teasers/putin-2.jpg"
+        "nickname": "IUvan3",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 4,
-      "imgUrl": "https://s1.1zoom.ru/big0/93/340564-FAKIR.jpg",
+      "imgUrl": "../src/assets/photo/girl-4.jpg",
       "likes": [1],
-      "comments": [],
+      "comments": [
+        {
+          "nickname": "IUvan1000",
+          "text": "Фанфик настолько самостоятельный, что я представляю себе персонажей, которые выглядят иначе, чем в экранизации по оригиналу",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-01-01"
+        },
+        {
+          "nickname": "IUvan222",
+          "text": "как думаете, макгонаголл думала что ничего не получится из-за того что все волшебники не особо обращают внимания на мир маглов? как бы выглядел мир если бы волшебники реально существовали и у них мышление не как в книге а реальное самоосознание?",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-08-01"
+        },
+        {
+          "nickname": "IUvan333",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-04-01"
+        },
+        {
+          "nickname": "IUvan444",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-02-01"
+        }
+      ],
       "author": {
         "id": 4,
-        "nickname": "Dmytro3",
-        "avatarUrl": "https://ru-static.z-dn.net/files/d73/12f74c43f454f38c2e0c6dbe581f73ef.jpg"
+        "nickname": "Dmytro4",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 5,
-      "imgUrl": "https://img2.goodfon.ru/original/7744x5400/8/d3/zakat-nebo-solnce-luchi-oblaka.jpg",
+      "imgUrl": "../src/assets/photo/girl-7.jpg",
       "likes": [2, 1],
-      "comments": [],
+      "comments": [
+        {
+          "nickname": "IUvan111",
+          "text": "Фанфик настолько самостоятельный, что я представляю себе персонажей, которые выглядят иначе, чем в экранизации по оригиналу",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-01-01"
+        },
+        {
+          "nickname": "IUvan222",
+          "text": "как думаете, макгонаголл думала что ничего не получится из-за того что все волшебники не особо обращают внимания на мир маглов? как бы выглядел мир если бы волшебники реально существовали и у них мышление не как в книге а реальное самоосознание?",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-08-01"
+        },
+        {
+          "nickname": "IUvan333",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-04-01"
+        },
+        {
+          "nickname": "IUvan444",
+          "text": "Какой же кайф эта книга. Переживаю за его открытия, больше, чем за типикал линиями сюжета типикал книг. ",
+          "avatar": "../src/assets/user.svg",
+          "date": "2022-02-01"
+        }
+      ],
       "author": {
         "id": 4,
-        "nickname": "Dmytro3",
-        "avatarUrl": "https://ru-static.z-dn.net/files/d73/12f74c43f454f38c2e0c6dbe581f73ef.jpg"
+        "nickname": "Dmytro5",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 6,
-      "imgUrl": "https://www.1zoom.ru/big2/51/219186-frederika.jpg",
+      "imgUrl": "../src/assets/photo/girl-5.jpg",
       "likes": [2],
       "comments": [],
       "author": {
         "id": 4,
-        "nickname": "Dmytro3",
-        "avatarUrl": "https://ru-static.z-dn.net/files/d73/12f74c43f454f38c2e0c6dbe581f73ef.jpg"
+        "nickname": "Dmytro6",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 7,
-      "imgUrl": "https://cameralabs.org/media/cameralabs/images/Tanya/_II_October/14.10/23stunning-landscape-view-argentina.jpg",
+      "imgUrl": "../src/assets/photo/girl-5.jpg",
       "likes": [2],
       "comments": [],
       "author": {
         "id": 3,
-        "nickname": "Seriy2",
-        "avatarUrl": "https://rest-zone.ru/upload/photos/2021/05/8Uu8sYR5dIQwPOSdPbvK_12_ffa126fc14b13cbf301d86cff093984a_avatar_full.jpg"
+        "nickname": "Seriy7",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 8,
-      "imgUrl": "https://img3.goodfon.ru/original/7297x4870/2/5a/pasture-the-bavarian-alps.jpg",
+      "imgUrl": "../src/assets/photo/girl-6.jpg",
       "likes": [1],
       "comments": [],
       "author": {
         "id": 3,
-        "nickname": "Seriy2",
-        "avatarUrl": "https://rest-zone.ru/upload/photos/2021/05/8Uu8sYR5dIQwPOSdPbvK_12_ffa126fc14b13cbf301d86cff093984a_avatar_full.jpg"
+        "nickname": "Seriy8",
+        "avatarUrl": "../src/assets/user.svg"
       }
     },
     {
       "id": 9,
-      "imgUrl": "https://mobimg.b-cdn.net/v3/fetch/f9/f9f2de5608f00f96a18f470547e52bef.jpeg?w=1470&r=0.5625",
+      "imgUrl": "../src/assets/photo/girl-9.jpg",
       "likes": [1],
       "comments": [
         {
